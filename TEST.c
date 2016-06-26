@@ -1,9 +1,3 @@
-/*
-*********************************************************************************************************
-*                                       7 Greedy Snake
-*********************************************************************************************************
-*/
-
 #include "includes.h"
 /*********************************************************************************************************
 *                                               CONSTANTS
@@ -33,15 +27,15 @@ INT16S        score;
 *********************************************************************************************************
 */
 		
-        void  Shooter(void *data);/*…‰ª˜’ﬂ*/
-        void  UpdateGui(void *data);/*∏¸–¬œ‘ æ*/
+        void  Shooter(void *data);/*Â∞ÑÂáªËÄÖ*/
+        void  UpdateGui(void *data);/*Êõ¥Êñ∞ÊòæÁ§∫*/
         void  TaskStart(void *data);/* Function prototypes of Startup task           */
 static  void  TaskStartCreateTasks(void);
 static  void  TaskStartDispInit(void);
 static  void  TaskStartDisp(void);
-		void  Init(void);//≥ı ºªØ
-		void  shoot(INT8U* x);//…‰ª˜
-		void  bullet(void *data);//◊”µØ
+		void  Init(void);//ÂàùÂßãÂåñ
+		void  shoot(INT8U* x);//Â∞ÑÂáª
+		void  bullet(void *data);//Â≠êÂºπ
 
 /*
 *********************************************************************************************************
